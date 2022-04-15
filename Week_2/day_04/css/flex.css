@@ -1,0 +1,22 @@
+body {
+  background-color: darkgrey;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+  height: 700px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  background-color: chocolate;
+  border: 1px solid;
+  color: white;
+}
