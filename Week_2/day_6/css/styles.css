@@ -1,0 +1,11 @@
+.main_content {
+    display: flex;
+}
+
+.box {
+  border: 2px solid red;
+  background-color: blue;
+  height: 200px;
+  width: 300px;
+  
+}

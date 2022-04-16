@@ -1,0 +1,18 @@
+.jumbotron {
+    height: 500px;
+    background-image: url("../images/desk_image.jpg");
+    background-size: cover;
+  }
+
+
+.section {
+
+}
+
+.section_content {
+  border: 2px solid red;
+  background-color: blue;
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
