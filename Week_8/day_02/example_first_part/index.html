@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <form
+      name="myForm"
+      action="/register"
+      onsubmit="return validateForm()"
+      method="post"
+    >
+      First Name : <input type="text" name="fname" /> Last Name :
+      <input type="text" name="lname" /> Mobile Number:
+      <input type="number" name="mobNumber" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
