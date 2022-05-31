@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>My Movie App</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-3">
+          <input type="text" id="search-box" />
+          <button class="btn btn-primary" onclick="getMovie()">
+            Search Movie
+          </button>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <div id="mycard" class="card" hidden>
+            <img id="poster" src="..." alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 id="title">Title</h4>
+              <span id="genre"></span><br />
+              <span id="actor"></span>
+              <span id="rating"></span>
+              <p id="description">Movie Description</p>
+              <a
+                id="view-imdb"
+                href="#"
+                class="btn btn-secondary"
+                target="_blank"
+                >Go to IMDB</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
