@@ -1,0 +1,17 @@
+week 10 day 5 exercise 1 
+
+14. SELECT 8 FROM employees 
+    WHERE regexp_match(first_name, '[0-9]') IS NOT NULL
+
+RESTRICTING AND SORTING
+
+3. select * from employees
+   where substring(first_name, 'c') IS NOT NULL,
+   AND substring(first_name,'e') IS NOT NULL;
+
+
+
+5. SELECT last_name FROM employees WHERE last_name LIKE '______';
+
+6. SELECT last_name FROM employees WHERE last_name LIKE '__e%';
+
